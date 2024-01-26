@@ -61,6 +61,11 @@ function func() {
                     object-fit: cover;
                     border-radius: 50%;
                 }
+                .number
+                {
+                    font-size: 1.5rem;
+                    color: white;
+                }
             </style>
         
         </head>
@@ -88,7 +93,7 @@ function func() {
                         </div>
                         <div class="col-md-4">
                             <h2>contact</h2>
-                            <h2 class="name">${number}</h2>
+                            <h2 class="number">${number}</h2>
                             <h2 class="name">${mail}</h2>
                         </div>
                     </div>
